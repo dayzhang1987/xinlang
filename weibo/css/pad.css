@@ -1,0 +1,65 @@
+	/*需要隐藏的标签*/
+		.weibo_menu,.weibo_content .wb_con_title,.card .my_icon,.card .item-list .name,.weibo_content_left,.title-group,.item-list .item1 .level1{ display: none;}
+
+		/*公共性质标签*/
+		.weibo_bg,.link_body{width:600px;}
+		.weibo_bg,.my_icon,.item2-menu3 span,.footer_body1 a,.footer_body1 span{display: block;}
+		.item-list .item1 .name,.item-list .item1 .sex,.item2-menu1,.item2-menu2,.item2-menu3,.nav_list li a,.link_body .list ul li{display:inline-block;}
+		
+		/*公共性质标签--end*/
+		
+		.main{background: #B4DAEF url(../pad/body_bg_page.jpg) no-repeat scroll center -140px;margin-top: 15px;padding-top: 15px;}
+		.header,.nav,.weibo_content{ width: 600px;}
+		/*头部*/
+		.header{ position: relative;top:0px;overflow: hidden;}
+		.weibo_bg{ height:300px; background:url(../pad/001.jpg) no-repeat scroll -190px 0;animation: weibo_bg_ani 5s linear;-o-animation: weibo_bg_ani 5s linear;-moz-animation: weibo_bg_ani 5s linear;-ms-animation: weibo_bg_ani 5s linear;-webkit-animation: weibo_bg_ani 5s linear;}
+		
+		/*<!--头像内容-->*/
+		.weibo_message{ position: absolute;width: 270px;top:45px;left:165px;}
+		.my_icon{border-radius: 50%;margin: 0 auto;width: 100px;height: 100px;transition:transform 3s linear;-o-transition:-o-transform 3s linear;-moz-transition:-moz-transform 3s linear;-webkit-transition:-webkit-transform 3s linear;}
+		.my_icon:hover{ transform:rotate(360deg);-o-transform:rotate(360deg);-moz-transform:rotate(360deg);-webkit-transform:rotate(360deg);-ms-transform:rotate(360deg);
+		}
+		.item-list .item1 .name{  color:#FFF; font-weight:500; font-size:21px; text-shadow:0 0 2px #333;height: 30px;line-height: 30px;padding:10px 5px 10px 10px;}
+		.item-list .item1 .sex{ width:17px; height:17px; background:url(../pc/icon2.png) no-repeat scroll -125px -49px; line-height:20px;position: absolute;margin-top:25px;}
+		
+		.item-list .item2{position: relative;width: 350px;}
+		.item2-menu1,.item2-menu2,.item2-menu3{position: absolute;top:40px;height:32px;line-height:31px;border-radius: 3px;width: 100px;font-size: 13px;color: #fff;float: right;margin: 0 5px;}
+		.item2-menu1{left:120px;background: #676C76;}
+		.item2-menu2{background: #F36B23;left:0px;}
+		.item2-menu3{width: 40px;left:240px;background: #676C76;}
+		.item2-menu3 span{width: 20px;height:20px;background-size:20px 20px;background:url(../pad/ico_btn_player.png) no-repeat scroll -40px -116px;margin:8px 10px;}
+		.mysign{ font-size:12px;color: #fff;text-shadow:0 0 2px #333;}
+		/*<!--头像内容 end-->*/
+		/**---------------------------微博菜单--**/
+		.nav_list{width: 360px;}
+		.nav_list li{width: 180px;}
+		/**---------------------------微博菜单 end--**/
+
+		/**---------------------------微博内容 --**/
+		.card-list{margin-top: 15px; } 
+		.card{background: #fff;margin: 8px 0px;overflow: hidden;
+			position: relative;}
+		.card .item-list{position:absolute;bottom: 40px;padding-left: 15px;}
+		.card-content .cc_title{padding: 10px 0px 5px 15px;font-size:14px;}
+		.card-content .cc_content{padding: 5px 0px 5px 15px;font-size:14px;text-indent: 2em}
+		.card_menu .praise i{ margin-top: 4px;background:url(../pad/icon.png) no-repeat scroll -100px -25px;}
+		.card_menu .praise:hover i{ background-position:-125px -25px;}
+		/**---------------------------微博内容 end--**/
+		/*微博页脚*/
+		
+		.list{margin-right:20px;margin-bottom:10px;}
+		.list p{padding-top:10px;margin-left:2px;}
+		.list ul{width:130px;}
+		.list ul li{margin-left:1px;width:60px;}
+		.list ul li a{font-size:12px;color:#999;}
+		/*微博尾部*/
+		.footer{ width:100%;background:#f2f2f5;padding-bottom: 40px;}
+		.footer_body1{width:700px;margin:0 auto;font-size:12px;  color:#999; line-height:25px}
+		.footer_body1 .ftb1{ width:585px;margin:0 auto;}
+		.footer_body1 a{height:25px;float:left;font-size:12px;margin-left:5px; padding:0 4px; color:#999;}
+		.footer_body1 span{float:left;width:700px;}
+		.footer_body1 span .ftbc{ width:360px ;margin:0 auto;}
+		.footer_body1 .ftbj{ width:600px;margin:0 auto;}
+		.footer_body1 .yipai{clear:both;}
+
+	

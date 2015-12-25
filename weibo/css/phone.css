@@ -1,0 +1,80 @@
+
+		/*需要隐藏的标签*/
+		.weibo_content_left,.title_right,.nav,.ref_menu,.link,.footer,.card .card-content .cc_title,.card .card_menu .collect,.item2-menu3{display: none;}
+		/*公共的设置*/
+		.weibo_bg,.item1 .level1 span i{display: block;}
+		.mysign,.card .item-list .time_from{color:#999;}
+		.my_icon,.item-list,.item1 .name,.item1 .sex,.level1{ float: left;}
+		.title,.item1 .name{color: #fff;}
+		.item1 .sex,.level1,.item2-menu1,.item2-menu2{display:inline-block;}
+
+		/*公共性质标签--end*/
+		
+		/*头部*/
+		.weibo_bg{ width:100%;height:160px; background:url(../img/page_cover_default_2x.jpg);background-repeat:no-repeat;background-size:100%;}
+		
+		/*头部固定同时设置透明度*/
+		.title-group{ background: none repeat scroll 0% 0% rgba(49,49,49,0.35);
+			position: fixed;line-height: 44px;height: 44px;width: 100%;top: 0px;}
+		/*text-overflow:表示显示省略符号来代表被修剪的文本
+			white-space：不换行
+		*/
+		.title{ font-size:16px;overflow: hidden;text-overflow:ellipsis;white-space:nowrap;text-align: center;}
+		/*<!--头像内容-->*/
+		.weibo_message{ position:absolute;width:100%;height: 120px;margin: -40px 0 0 0px;
+		}
+		.my_icon{padding: 0 0 0 15px;width: 80px;height: 80px;}
+		.mysign{text-align:left;margin:5px 0 10px 0 ;padding: 0 0 0 15px;line-height: 24px;height: 24px;font-size: 13px;}
+		
+		.item-list{padding: 8px 11px 0 11px;}
+		.item1 .name{ font-size: 15px;line-height: 17px;height: 17px;}
+		/*背景的大小根据em换算而来，默认1em=16px,在font-size里可以设置1em=多少*/
+	
+		.item1 .sex,.level1{color: #000;}
+		
+		/*整个图向左移动-25px*/
+		.item1 .sex{background:url(../pc/icon2.png) no-repeat scroll -125px -49px; width:17px;height: 17px;}
+		/*整个向上移动100px*/
+		.item1 .level1{ margin-left:5px;background-color:rgba(255,255,255,0.6);border-radius: 2px; }
+		.item1 .level1 span i{background:url(../pc/icon2.png) no-repeat scroll -22px -123px;width: 17px;height: 18px;float: left; }
+		.item1 .level1 span{ padding-left:5px;color: rgb(157,158,172);}
+		.item2{ margin-top:13px;padding:5px 0px;color: #666;font-size: 14px;}
+		.item2 a{ color: #666;}
+		.item2-menu1,.item2-menu2{ height:32px;line-height:31px;border:1px solid #ccc;border-radius: 2px;margin-left:0px;padding-left: 28px;background-position: 12px 9px;background-repeat: no-repeat;}
+		.item2-menu1{ width: 45px;background-image: url(../img/xin.jpg);}
+		.item2-menu2{ width: 56px;background-image: url(../img/add.jpg);}
+		/*<!--头像内容 end-->*/
+	
+		/*保证标签按等比拉伸display:flex*/
+		.menu{ width: 100%;border-bottom:1px solid #ccc;border-top: 1px solid #ccc;}
+		
+		/**---------------------------微博菜单--**/
+		
+		.weibo_menu{margin-top: 76px;height: 34px;padding-top: 8px;}
+		.weibo_menu a{ color: #333;width: 100%;height: 27px;line-height: 14px;}
+		.weibo_menu .more{border-right:0px;}
+		/**---------------------------微博菜单 end--**/
+
+		/**---------------------------微博内容 --**/
+		.weibo_content{ background:#F2F2F2;width: 100%;}
+		.wb_con_title{ font-size: 12px;height: 15px; line-height: 12px;padding: 10px 0px 5px 12px;}
+
+		/*内容卡片*/
+		.card{ padding:10px 0 0px 0px;background: #fff;margin-bottom: 10px;}
+		.card .my_icon{padding: 0 0 0 15px;width: 35px;height: 35px;}
+		.card .item-list{padding: 2px 11px 0 11px;}
+		.card .item-list .name{line-height: 15px;height: 20px;}
+		.card .item-list .time_from{line-height: 12px;}
+		.card .card-content .cc_title{font-size:16px;padding:10px 0px 10px 15px;}
+		.card .card-content .cc_content{font-size:14px;padding:10px 0px 10px 15px;text-indent:2em;}
+
+		.card .card-content .cc_content{padding-right:5px; width: 95%;}
+		.card .card_menu{padding: 5px 0px;height: 20px;}
+		.card .card_menu a{ height: 20px;line-height: 20px;}
+		.card .card_menu a span em{ font-style:normal;padding-left:3px;color:#8E908F }
+		.card .card_menu .turnfor i{ background:url(../img/zhuangfa.jpg) no-repeat scroll 0 5px; }
+		.card .card_menu .comment i{ background:url(../img/pinglun.jpg) no-repeat scroll 0 5px;}
+		.card .card_menu .praise i{ background:url(../img/zan.jpg) no-repeat scroll 0 3px;}
+
+	
+	

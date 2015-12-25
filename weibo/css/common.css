@@ -1,0 +1,112 @@
+*{ margin:0;padding:0;font-family: 'Arial','Microsoft YaHei';list-style:none;}
+img{border-size:0px;}
+a{text-decoration: none;color: #000;}
+.main{width: 100%; }
+.header,.nav,.weibo_content,.link_body,.nav_list{ margin: 0 auto;}
+.menu a,.ref_time_from{font-size: 12px;}
+.weibo_message,.nav_list li,.pc_more_a,.pc_body_list li .midbox,.footer_body1{text-align: center;}
+.card .item-list .time_from,.cc_refer_img,.ref_menu a{color: #999;}
+.refer,.card_menu a:hover em,.cc_refer_con a:hover{color:#eb7350;}
+/*右上角*/
+.title_right{right:20px;top:10px;color: #fff;font-size:14px;position: absolute;}
+.title_right span{background: #000;border-radius:2px;padding:2px 5px;float:left;
+		 filter:alpha(opacity:80);opacity: 0.8;}
+.title_right em{display:block;width:30px;height:30px;margin-left: 10px;background: url(../pad/icon_profile.png) no-repeat 0px 0px;float:left;}
+.title_right em:hover{background: url(../pad/icon_profile.png) no-repeat -30px 0px;}	
+	
+/*背景动画*/
+@keyframes weibo_bg_ani{ 
+			from{transform:scale(1.1,1.1)}
+			to{transform:scale(1,1)}
+		}
+		@-o-keyframes weibo_bg_ani{ 
+			from{-o-transform:scale(1.1,1.1)}
+			to{-o-transform:scale(1,1)}
+		}
+		@-moz-keyframes weibo_bg_ani{ 
+			from{-moz-transform:scale(1.1,1.1)}
+			to{-moz-transform:scale(1,1)}
+		}
+		}
+		@-ms-keyframes weibo_bg_ani{ 
+			from{-ms-transform:scale(1.1,1.1)}
+			to{-ms-transform:scale(1,1)}
+		}
+		@-webkit-keyframes weibo_bg_ani{ 
+			from{-webkit-transform:scale(1.1,1.1)}
+			to{-webkit-transform:scale(1,1)}
+		}
+/*右上角  end*/
+		.minwid{min-width: 300px;}
+		.bot1c{ border-bottom:1px solid #ccc;}
+		.bottop1c{ border-top: 1px solid #ccc;}
+		.bolc{ border-left: 1px solid #ccc;}
+		.width50{width:50px;}
+		.height50{ height: 50px;}
+		.width80{ width: 80px;}
+		.height80{ height: 80px;}
+		.width100{ width:100px;}
+		.height100{ height: 100px;}
+		.width35{width: 35px;}
+		.height35{ height: 35px;}
+		.clearfloat{ clear:both;}
+		.ftsize12{font-size:12px;}
+		.ftsize14{font-size: 14px;}
+		.ftsize15{font-size: 15px;}
+		.ftsize16{font-size: 16px;}
+
+		/*保证标签按等比拉伸display:flex*/
+		.menu{ display: flex;display:-webkit-flex;text-align: center;border-bottom:1px solid #f2f2f5;border-top: 1px solid #f2f2f5;}
+		.menu a{ display: block;width: 100%;width:149px;float:left;border-right: 1px solid #d9d9d9;}
+
+		/**---------------------------微博菜单--**/
+		.nav{ height: 40px;background: #fff;overflow: hidden;}
+		.nav_list{height: 40px;}
+		.nav_list li{float: left;line-height: 37px;height: 37px;}
+		.nav_list li a{font-size: 14px;color: #000;padding:0 10px 0 10px;font-weight: bold;}
+		.nav_list li a:hover,.nav_list li:first-child a{ border-bottom:3px solid #F7691D;}
+		/**---------------------------微博菜单 end--**/
+
+		/**---------------------------微博内容 --**/
+	   
+		.refer2{font-size:10px;padding:1px 2px 1px 17px;width:120px ;height:10px;line-height:10px;border-radius:2px;border:1px solid #ccc;background: url(../pc/icon.png) no-repeat -222px -372px rgb(242,242,245);}
+		
+		/*内容卡片公共代码*/
+		.card .item-list .time_from{line-height: 12px;}
+		.card-content{margin-bottom: 30px;}
+		 .card-content .cc_content{width:552px;color:#333;padding: 8px 8px 5px 18px;font-size:14px;overflow:hidden;letter-spacing:normal;line-height: 24px;}
+		.cc_content span{margin-right: 8px;}
+		.card_menu{padding: 5px 0px;height: 20px;width: 600px;}
+		.card_menu a{ color: #333;height: 22px;line-height: 20px;}
+		.card_menu a span { display: inline-block;width: 45px;margin: 0 auto;}
+		.card_menu a span i,em{ float: left;}
+		.card_menu a span i{ display: inline-block;width: 15px;height: 20px;}
+		.card_menu a span em{ font-style:normal;padding-left:1px;color:#8E908F }
+		
+		.card_menu .praise{border-right: 0px solid #ccc;}
+		.cc_content .cc_content_pc1{font-size:10px;color:#fff;width:50px;height:14px;border-radius:2px;padding:2px 4px 2px 20px;background:url(../pc/icon2.png) no-repeat -150px -49px rgb(255,130,0);}
+		.cc_refer{margin:5px 10px;}
+		.cc_refer .w_arrow{height: 10px;overflow: hidden;}
+		.cc_refer .w_arrow i{border:10px solid #f2f2f5;border-top-color:transparent;border-right-color:transparent;border-left-color:transparent;margin:-10px 0 0 16px;display: block;width: 0;height: 0;line-height:0px;}
+		.cc_refer .cc_refer_con{padding:10px;background: #f2f2f5;font-size: 13px;letter-spacing: normal;line-height: 21px;}
+		
+		.cc_refer_con .from{width: 100px;padding: 5px 0px;}
+		.cc_refer_img{padding: 10px;}
+		.ref_time_from{float: left;}
+		.cc_refer_img .ref_img{width:90px;height: 120px;background: url(../pc/9.jpg) no-repeat ;border:none;}
+		/*转发引用菜单不需要对齐*/
+		.ref_menu{width:220px;float:right;text-align: right;}
+		.ref_menu a{text-align:center;height:15px;line-height:15px;padding:0 10px;display:block;float:left;border-right:1px solid #d9d9d9;}
+		.ref_menu a span{ display: inline-block;margin:0 auto;}
+		.ref_menu a span i,em{ float: left;}
+		.ref_menu a span i{display: inline-block;width: 15px;height:20px;}
+		.ref_menu a span em{display: inline-block;font-size: 10px;font-style: normal;}
+		.ref_menu .praise i{ margin-top: 0px;background:url(../pad/icon.png) no-repeat scroll -100px -25px;}
+		.ref_menu .praise {border-right: 0px;padding-right:2px;}
+
+
+		/*微博页脚*/
+		.link{ width:100%;background:#fff;height: 100px;}
+		.list{line-height: 30px;}
+		.list,.list ul li{float: left;}
+		.list ul{height: 70px;line-height: 20px;}
